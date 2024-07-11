@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sip & Play - Board game shop serving boba tea and small bites in Park Slope, Brooklyn.">
     <title>Sip & Play</title>
+    <!-- Existing CSS link -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- New Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -39,6 +39,8 @@
             <h2>Our Menu</h2>
             <p>Explore our delicious boba tea and small bites menu in 3D.</p>
             <div id="menu-3d"></div>
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
         </section>
 
         <section id="events">
@@ -62,6 +64,10 @@
         <p>&copy; 2024 Sip & Play. All rights reserved.</p>
     </footer>
 
+    <!-- Existing scripts and additional libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+    <!-- Retain existing script if it serves the same purpose -->
     <script src="scripts.js"></script>
 </body>
 </html>

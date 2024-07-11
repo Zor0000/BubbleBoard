@@ -6,13 +6,12 @@
 
 body {
     font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     line-height: 1.6;
     background-color: #F5F5DC;
     color: #4B3621;
-
 }
 
 header {
@@ -56,6 +55,37 @@ section {
     margin-bottom: 2rem;
 }
 
+
+
+#menu-3d {
+    width: 100%;
+    height: 400px;
+    background-color: #F0F0F0; /* Light Gray Background for Placeholder */
+    position: relative;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+#prev {
+    left: 10px;
+}
+#next {
+    right: 10px;
+}
+#events-calendar {
+    width: 100%;
+    height: 400px;
+    background-color: #e9ecef;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -64,16 +94,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-#menu-3d {
-    width: 100%;
-    height: 400px;
-    background-color: #e9ecef;
-}
-
-#events-calendar {
-    width: 100%;
-    height: 400px;
-    background-color: #e9ecef;
 }
