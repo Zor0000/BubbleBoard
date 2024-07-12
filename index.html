@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sip & Play - Board game shop serving boba tea and small bites in Park Slope, Brooklyn.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sip & Play - Board game shop serving boba tea and small bites in Park Slope, Brooklyn."
+    />
     <title>Sip & Play</title>
     <!-- Existing CSS link -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <!-- New Google Fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h1>Welcome to Sip & Play</h1>
-            <p>Nestled in Park Slope's leafy embrace, where does the perfect trifecta of cardboard quests, bubbly brews, and tiny treats await the intrepid urban explorer? Unveil Brooklyn's coziest nook for gaming, sipping, and nibbling!</p>
-        </section>
+      <section id="home">
+        <h1>Welcome to Sip & Play</h1>
+        <p>
+          Nestled in Park Slope's leafy embrace, where does the perfect trifecta
+          of cardboard quests, bubbly brews, and tiny treats await the intrepid
+          urban explorer? Unveil Brooklyn's coziest nook for gaming, sipping,
+          and nibbling!
+        </p>
+      </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Learn more about Sip & Play and what makes us special.</p>
-        </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about Sip & Play and what makes us special.</p>
+      </section>
 
-        <section id="menu">
-            <h2>Our Menu</h2>
-            <p>Explore our delicious boba tea and small bites menu in 3D.</p>
-            <div id="menu-3d"></div>
-            <button id="prev">Previous</button>
-            <button id="next">Next</button>
-        </section>
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Explore our delicious boba tea and small bites menu in 3D.</p>
+        <div id="menu-3d">
+          <button id="prev">Previous</button>
+          <div id="render"></div>
+          <button id="next">Next</button>
+        </div>
+      </section>
 
-        <section id="events">
-            <h2>Events</h2>
-            <p>Check out our upcoming events and join us for some fun!</p>
-            <div id="events-calendar"></div>
-        </section>
+      <section id="events">
+        <h2>Events</h2>
+        <p>Check out our upcoming events and join us for some fun!</p>
+        <div id="events-calendar"></div>
+      </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us for any inquiries or reservations.</p>
-        </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any inquiries or reservations.</p>
+      </section>
 
-        <section id="blog">
-            <h2>Blog</h2>
-            <p>Read our latest blog posts about board games, boba tea, and more!</p>
-        </section>
+      <section id="blog">
+        <h2>Blog</h2>
+        <p>Read our latest blog posts about board games, boba tea, and more!</p>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Sip & Play. All rights reserved.</p>
+      <p>&copy; 2024 Sip & Play. All rights reserved.</p>
     </footer>
 
     <!-- Existing scripts and additional libraries -->
@@ -69,5 +82,5 @@
     <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
     <!-- Retain existing script if it serves the same purpose -->
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
