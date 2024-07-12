@@ -8,13 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add lighting
     const ambientLight = new THREE.AmbientLight(0x404040);
+    scene.background = new THREE.Color( 0xBCB88A );
     scene.add(ambientLight);
     const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
     directionalLight.position.set(5, 5, 5).normalize();
     scene.add(directionalLight);
 
     // Load models
-    const models = ['models/m1.gltf', 'models/m2.gltf', 'models/m3.gltf', 'models/m4.gltf']; // List of your GLTF models
+    const models = ['models/boba_tea_cup/m1.gltf', 'models/bubble_tea_and_cookies/m2.gltf', 'models/cafe_latte_with_art/m3.gltf', 'models/desserts/m4.gltf']; // List of your GLTF models
     let currentModelIndex = 0;
     let currentModel;
 
